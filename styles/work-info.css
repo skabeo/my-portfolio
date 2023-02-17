@@ -68,7 +68,7 @@ li {
   border: none;
   height: 48px;
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial;
   border-radius: 2px;
   cursor: pointer;
   transition: opacity 0.25s;
