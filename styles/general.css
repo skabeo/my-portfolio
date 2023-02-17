@@ -6,14 +6,12 @@
 }
 
 body {
-  background-color:  #191765;
+  background-color: #191765;
   font-family: 'Poppins', sans-serif;
   color: white;
   margin: 0;
-
   padding: 32px 24px;
 }
-
 
 .text-gradient {
   background: radial-gradient(
@@ -28,7 +26,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 p {

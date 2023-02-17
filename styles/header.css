@@ -5,15 +5,13 @@
 }
 
 .work {
-  color: #A2A3AE;
+  color: #a2a3ae;
   font-size: 20px;
 }
 
 .vertical-container {
   position: relative;
   margin-right: 20.85px;
-
-  background-color: lightblue;
 }
 
 .arrow-container {

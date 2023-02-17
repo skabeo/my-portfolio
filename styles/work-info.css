@@ -8,14 +8,14 @@
 }
 
 .line {
-  color: #9490FF;
+  color: #9490ff;
   margin-top: 33px;
   margin-bottom: 48px;
 }
 
 .img-place-container {
   text-align: center;
-  width: 100%; 
+  width: 100%;
 }
 
 .work-header {
@@ -31,7 +31,7 @@
 .work-description {
   font-weight: 400;
   font-size: 20px;
-  color: #DCDCE8;
+  color: #dcdce8;
 }
 
 .grid-layout {
@@ -63,15 +63,14 @@ li {
 
 .button {
   font-size: 12px;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   padding: 12px;
   border: none;
   height: 48px;
   color: white;
-  font-family: poppins;
+  font-family: 'poppins';
   border-radius: 2px;
   cursor: pointer;
-
   transition: opacity 0.25s;
 }
 
@@ -82,4 +81,3 @@ li {
 .button-container {
   margin-top: 24px;
 }
-
