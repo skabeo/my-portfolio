@@ -1,0 +1,27 @@
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  color: #A2A3AE;
+  font-size: 20px;
+}
+
+.vertical-container {
+  position: relative;
+  margin-right: 20.85px;
+
+  background-color: lightblue;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 11px;
+  right: -9px;
+}
+
+.vertical {
+  height: 21.3px;
+}
