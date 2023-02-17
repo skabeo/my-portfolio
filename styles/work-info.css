@@ -41,6 +41,12 @@
   width: 100%;
 }
 
+.flex-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .img-place {
   width: 100%;
 }
@@ -80,3 +86,4 @@ li {
 .button-container {
   margin-top: 24px;
 }
+
