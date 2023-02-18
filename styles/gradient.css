@@ -1,0 +1,41 @@
+.left-pos,
+.right-pos,
+.left-pos2,
+.right-pos2 {
+  position: relative;
+}
+
+.right-ellipse {
+  position: absolute;
+  top: 130px;
+  right: -50px;
+}
+
+.left-ellipse2 {
+  position: absolute;
+  top: -90px;
+  left: -25px;
+}
+
+.right-ellipse2 {
+  position: absolute;
+  top: -70px;
+  right: -50px;
+}
+
+.ellipse {
+  position: absolute;
+  top: 70px;
+  left: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .recent {
+    text-align: center;
+  }
+}
