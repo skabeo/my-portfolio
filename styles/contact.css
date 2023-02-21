@@ -33,4 +33,16 @@ textarea {
   height: 148px;
   padding: 12px;
   font-family: inherit;
+  margin-bottom: 0;
+}
+
+#send-btn {
+  background: #7D73FC;
+  color: #EDECFF;
+  border: none;
+  padding: 12px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-family: inherit;
 }
