@@ -17,3 +17,18 @@
   margin-top: 24px;
   margin-bottom: 40px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+input {
+  padding: 15px 16px;
+}
+
+textarea {
+  height: 148px;
+  padding: 12px;
+}
