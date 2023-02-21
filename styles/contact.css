@@ -46,3 +46,12 @@ textarea {
   margin-top: 16px;
   font-family: inherit;
 }
+
+#send-btn:active {
+  background-color: #5E42D7;
+}
+
+#send-btn:hover {
+  background: #7D73FC;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
