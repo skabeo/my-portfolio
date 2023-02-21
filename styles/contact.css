@@ -26,9 +26,11 @@ form {
 
 input {
   padding: 15px 16px;
+  font-family: inherit;
 }
 
 textarea {
   height: 148px;
   padding: 12px;
+  font-family: inherit;
 }
