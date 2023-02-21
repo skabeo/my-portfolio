@@ -37,8 +37,8 @@ textarea {
 }
 
 #send-btn {
-  background: #7D73FC;
-  color: #EDECFF;
+  background: #7d73fc;
+  color: #edecff;
   border: none;
   padding: 12px;
   width: fit-content;
@@ -48,10 +48,10 @@ textarea {
 }
 
 #send-btn:active {
-  background-color: #5E42D7;
+  background-color: #5e42d7;
 }
 
 #send-btn:hover {
-  background: #7D73FC;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
