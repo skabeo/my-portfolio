@@ -1,0 +1,39 @@
+.author,
+.occupation,
+.description-container {
+  text-align: center;
+}
+
+.author {
+  font-size: 48px;
+}
+
+.occupation {
+  font-size: 32px;
+}
+
+.description-container p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bio-container {
+  position: relative;
+  margin-top: 60px;
+}
+
+.description-container {
+  margin-top: 60px;
+  position: relative;
+}
+
+.bio-gradient {
+  position: absolute;
+  top: -70px;
+  left: -200px;
+}
+
+.line {
+  border: 1px solid #646369;
+  margin-top: 33px;
+}

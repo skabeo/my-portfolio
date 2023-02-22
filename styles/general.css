@@ -10,7 +10,6 @@ body {
   background-color: #191765;
   font-family: 'Poppins', sans-serif;
   color: white;
-  margin: 0;
   padding: 32px 24px;
 }
 
@@ -28,8 +27,4 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-p {
-  margin: 0;
 }
