@@ -1,0 +1,36 @@
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 18px;
+}
+
+.hamburger {
+  height: 20.83px;
+  width: 33.33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  display: block;
+  background-color: white;
+}
+
+.hamburger span:first-child {
+  transform: translateY(-50%);
+}
+
+.hamburger span:last-child {
+  transform: translateY(50%);
+}
