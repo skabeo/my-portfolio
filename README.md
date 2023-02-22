@@ -98,4 +98,4 @@ I would like to thank
 
 This project is [MIT](https://github.com/skabeo/Mobile-Version-2.0/blob/main/LICENSE.md) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
