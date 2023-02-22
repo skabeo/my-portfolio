@@ -62,6 +62,12 @@ Clone this repository to your desired folder:
 - Twitter: [@black_okyere](https://twitter.com/black_okyere)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/okyere-spencer-9b602623b)
 
+👤 **Benson Njuguna**
+
+- GitHub: [@bennyjoez](https://github.com/bennyjoez)
+- Twitter: [@bennyjoezz](https://twitter.com/bennyjoezz)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/bennyjoez)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -83,7 +89,7 @@ If you like this project give a ⭐️
 
 I would like to thank
 
-- Myself
+- Benson Njuguna
 - Microverse Team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
