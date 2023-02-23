@@ -17,6 +17,7 @@ a {
   from {
     transform: rotate(0deg);
   }
+  
   to {
     transform: rotate(360deg);
   }
@@ -27,13 +28,13 @@ nav ul li {
   transition: color 0.25s ease-in-out;
 }
 
+nav ul li a {
+  color: white;
+}
+
 nav ul li a:hover,
 nav ul li:hover {
   color: #7d73fc;
-}
-
-nav ul li a {
-  color: white;
 }
 
 .hamburger {
