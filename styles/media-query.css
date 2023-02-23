@@ -1,0 +1,264 @@
+@media screen and (min-width: 768px) {
+  body {
+    padding: 17px 120px;
+    overflow-x: hidden;
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .author {
+    font-size: 60px;
+  }
+
+  .bio-container {
+    margin-top: 100px;
+  }
+
+  .description-container {
+    max-width: 470px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .description-container p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .line2 {
+    display: block;
+    border: 1px solid #646369;
+    max-width: 470px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .intro-footer-container {
+    max-width: 470px;
+    margin-top: 30px;
+  }
+
+  .work-container,
+  .recent {
+    display: none;
+  }
+
+  .grid-layout {
+    display: none !important;
+  }
+
+  #social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 60px;
+  }
+
+  .footer-work1 div {
+    margin-left: 10px;
+  }
+
+  .footer-work2 div {
+    margin-right: 10px;
+  }
+
+  .intro-icons {
+    display: flex;
+  }
+
+  .footer-work1,
+  .footer-work2 {
+    display: flex;
+    color: #b3bac5;
+    font-size: 15px;
+  }
+
+  .recent2 {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .line3 {
+    display: block;
+    border: 1px solid #646369;
+    margin: 30px 0 60px 0;
+  }
+
+  .grid-layout2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+  }
+
+  .flex-layout2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .img-placeholder-container2 {
+    position: relative;
+  }
+
+  .project-gradients1 {
+    position: absolute;
+    top: -120px;
+    left: -120px;
+    z-index: -1;
+  }
+
+  .project-gradients2 {
+    position: absolute;
+    bottom: -100px;
+    right: -120px;
+    z-index: -1;
+  }
+
+  .project-gradients3 {
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    z-index: -3;
+  }
+
+  .project-gradients4 {
+    position: absolute;
+    top: -150px;
+    right: -120px;
+    z-index: -1;
+  }
+
+  .work-skills2 {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .flex-layout2 h4 {
+    font-size: 25px;
+  }
+
+  .project-description2 {
+    font-size: 16px;
+    margin-top: 35px;
+  }
+
+  .work-skills-container2 {
+    margin-top: 24px;
+  }
+
+  .work-skills2 li {
+    font-size: 13px;
+  }
+
+  .project-info2 button {
+    margin-top: 24px;
+    background-color: #9390ff;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    padding: 12px;
+  }
+
+  .project-info2 button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  .project-info2 button:active {
+    background-color: #5e42d7;
+  }
+
+  .reverse2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .contact-title2 {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .contact-description {
+    max-width: 630px;
+    margin: 0 auto;
+  }
+
+  form {
+    max-width: 630px;
+    margin: 0 auto;
+  }
+
+  .footer-line {
+    margin-right: -1500px;
+    margin-left: -1500px;
+    margin-bottom: 0;
+    border: 1px solid #646369;
+  }
+
+  .footer-container {
+    display: none;
+  }
+
+  .footer-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .footer-container2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+  }
+
+  .footer-container2 a {
+    font-size: 13px;
+  }
+
+  .bio-gradient {
+    top: 0;
+    left: -110px;
+  }
+
+  .intro-footer-gradient {
+    display: none;
+  }
+
+  .intro-footer-gradient2 {
+    display: block;
+    position: absolute;
+    top: 390px;
+    right: 30px;
+  }
+}
