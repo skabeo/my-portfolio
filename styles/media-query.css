@@ -184,6 +184,8 @@
     color: inherit;
     font-family: inherit;
     padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
 
   .project-info2 button:hover {
