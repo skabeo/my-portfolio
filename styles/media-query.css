@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   body {
     padding: 17px 120px;
+    overflow-x: hidden;
   }
 
   .logo {
