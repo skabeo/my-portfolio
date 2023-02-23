@@ -57,7 +57,7 @@
     display: none;
   }
 
-  .grid-layout{
+  .grid-layout {
     display: none !important;
   }
 
@@ -105,7 +105,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     row-gap: 40px;
   }
-  
+
   .flex-layout2 {
     display: flex;
     justify-content: center;
@@ -152,16 +152,16 @@
     align-items: center;
     gap: 20px;
   }
-  
+
   .flex-layout2 h4 {
     font-size: 25px;
   }
-  
+
   .project-description2 {
     font-size: 16px;
     margin-top: 35px;
   }
-  
+
   .work-skills-container2 {
     margin-top: 24px;
   }
@@ -169,7 +169,7 @@
   .work-skills2 li {
     font-size: 13px;
   }
-  
+
   .project-info2 button {
     margin-top: 24px;
     background-color: #9390ff;
@@ -238,7 +238,7 @@
     gap: 20px;
     margin-right: 20px;
     box-sizing: border-box;
-    margin-top: 6px; 
+    margin-top: 6px;
   }
 
   .footer-container2 a {
