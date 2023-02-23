@@ -28,3 +28,26 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.menu {
+  display: none;
+}
+
+.work-container,
+.footer-work1,
+.footer-work2,
+.recent2,
+.contact-title2,
+.footer-container2 {
+  display: none;
+}
+
+.grid-layout2 {
+  display: none;
+}
+
+.intro-footer-gradient2,
+.line2,
+.line3 {
+  display: none;
+}
