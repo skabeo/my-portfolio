@@ -45,6 +45,8 @@ textarea {
   margin: 0 auto;
   margin-top: 16px;
   font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 #send-btn:active {
