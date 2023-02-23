@@ -169,6 +169,12 @@
 
   .work-skills2 li {
     font-size: 13px;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .work-skills2 li:hover {
+    color: #7d73fc;
   }
 
   .project-info2 button {
@@ -178,6 +184,8 @@
     color: inherit;
     font-family: inherit;
     padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
 
   .project-info2 button:hover {

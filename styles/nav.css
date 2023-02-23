@@ -10,6 +10,31 @@ a {
 
 .logo {
   font-size: 18px;
+  animation: spin 1s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav ul li a,
+nav ul li {
+  transition: color 0.25s ease-in-out;
+}
+
+nav ul li a {
+  color: white;
+}
+
+nav ul li a:hover,
+nav ul li:hover {
+  color: #7d73fc;
 }
 
 .hamburger {
