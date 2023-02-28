@@ -57,3 +57,8 @@ textarea {
   background: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
+
+#name-label,
+#email-label {
+  display: none;
+}
