@@ -68,6 +68,12 @@ Clone this repository to your desired folder:
 - Twitter: [@bennyjoezz](https://twitter.com/bennyjoezz)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/bennyjoez)
 
+👤 **Samuel Kwesi Obuobi**
+
+- GitHub: [@kwesiObuobi]https://github.com/kwesiObuobi)
+- Twitter: [@kwesiObuobi](https://twitter.com/kwesi_obuobi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kwesi-obuobi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -90,6 +96,7 @@ If you like this project give a ⭐️
 I would like to thank
 
 - Benson Njuguna
+- Samuel Kwesi Obuobi
 - Microverse Team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
