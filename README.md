@@ -6,6 +6,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -13,6 +14,7 @@
   - [Install](#install)
   - [Run tests](#run-tests)
 - [👥 Author](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -27,6 +29,15 @@
 
 - HTML
 - CSS
+
+### Key Features <a name="key-features"></a>
+
+- **Flexbox is used to place elements in the page**
+- **Mobile-First approach is used for the design**
+- **A figma template is parsed to create the design of the web page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -76,6 +87,13 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **An active mobile menu**
+- [ ] **A  functional button that pops up details of a project**
+- [ ] **Project details page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
