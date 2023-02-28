@@ -14,6 +14,7 @@
   - [Install](#install)
   - [Run tests](#run-tests)
 - [👥 Author](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
