@@ -32,13 +32,13 @@ nav ul li a {
   color: white;
 }
 
+.menu li {
+  font-size: 24px;
+}
+
 nav ul li a:hover,
 nav ul li:hover {
   color: #7d73fc;
-}
-
-.menu li {
-  font-size: 24px;
 }
 
 .hamburger {
