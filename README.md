@@ -29,9 +29,11 @@
 
 - HTML
 - CSS
+- Javascript
 
 ### Key Features <a name="key-features"></a>
 
+- **Javascipt script DOM manipulation is used for the functionality of the web page**
 - **Flexbox is used to place elements in the page**
 - **Mobile-First approach is used for the design**
 - **A figma template is parsed to create the design of the web page**
@@ -65,7 +67,7 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+## Authors
 
 👤 **Spencer Okyere**
 
@@ -85,11 +87,17 @@ Clone this repository to your desired folder:
 - Twitter: [@kwesiObuobi](https://twitter.com/kwesi_obuobi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kwesi-obuobi/)
 
+👤 **Bertin Kambale**
+
+- GitHub: [@bertinkambale](https://github.com/bertinkambale)
+- Twitter: [@bertinkambale](https://twitter.com/bertinkambale)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/bertinkambale)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **An active mobile menu**
+- [ ] **An active pop up menu for project section**
 - [ ] **A  functional button that pops up details of a project**
 - [ ] **Project details page**
 
@@ -115,6 +123,7 @@ I would like to thank
 
 - Benson Njuguna
 - Samuel Kwesi Obuobi
+- Bertin Kambale 
 - Microverse Team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
