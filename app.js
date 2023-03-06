@@ -9,3 +9,9 @@ hamburger.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   menu.style.display = 'none';
 })
+
+menu.addEventListener('click',(event) =>{
+  if (event.target.tagName === 'A') {
+    menu.style.display = 'none'
+  }
+})
