@@ -69,8 +69,17 @@ nav ul li:hover {
   height: 100vh;
   background-color: #191765;
   z-index: 9999;
+  padding: 50px;
+}
+.menu li{
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .close-btn {
   background-color: #191765;
+}
+.close-button-container{
+  display:flex;
+  justify-content: end;
 }
