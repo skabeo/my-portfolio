@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
 
 👤 **Samuel Kwesi Obuobi**
 
-- GitHub: [@kwesiObuobi]https://github.com/kwesiObuobi)
+- GitHub: [@kwesiObuobi](https://github.com/kwesiObuobi)
 - Twitter: [@kwesiObuobi](https://twitter.com/kwesi_obuobi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kwesi-obuobi/)
 
