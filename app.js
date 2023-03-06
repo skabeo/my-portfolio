@@ -5,13 +5,13 @@ const links = document.querySelectorAll('.links a');
 
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
-})
+});
 
 closeButton.addEventListener('click', () => {
   menu.style.display = 'none';
-})
+});
 
-links.forEach(link => {
+links.forEach((link) => {
   link.addEventListener('click', (event) => {
     menu.style.display = 'none';
     const targetSection = document.querySelector(event.target.hash);
