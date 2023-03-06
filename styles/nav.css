@@ -23,6 +23,10 @@ a {
   }
 }
 
+.menu li {
+  font-size: 24px;
+}
+
 nav ul li a,
 nav ul li {
   transition: color 0.25s ease-in-out;
@@ -76,21 +80,18 @@ nav ul li:hover {
   padding: 50px 60px 24px 35px;
 }
 
-.menu li{
-  font-size: 24px;
-}
-
 .close-btn {
   background-color: #191765;
   border: none;
 }
-.close-button-container{
-  display:flex;
+
+.close-button-container {
+  display: flex;
   justify-content: end;
 }
 
 .btn-img {
-  height:20px;
+  height: 20px;
   width: 20px;
 }
 
@@ -117,7 +118,7 @@ nav ul li:hover {
 
 .abso1 {
   top: 70px;
-  left: 0
+  left: 0;
 }
 
 .abso2 {
