@@ -59,3 +59,14 @@ nav ul li:hover {
 .hamburger span:last-child {
   transform: translateY(50%);
 }
+
+.menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #191765;
+  z-index: 9999;
+}
