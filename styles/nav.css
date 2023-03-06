@@ -70,3 +70,7 @@ nav ul li:hover {
   background-color: #191765;
   z-index: 9999;
 }
+
+.close-btn {
+  background-color: #191765;
+}
