@@ -32,6 +32,10 @@ nav ul li a {
   color: white;
 }
 
+.menu li {
+  font-size: 24px;
+}
+
 nav ul li a:hover,
 nav ul li:hover {
   color: #7d73fc;
@@ -58,4 +62,66 @@ nav ul li:hover {
 
 .hamburger span:last-child {
   transform: translateY(50%);
+}
+
+.large-navbar {
+  display: none;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #191765;
+  z-index: 9999;
+  padding: 50px 60px 24px 35px;
+}
+
+.close-btn {
+  background-color: #191765;
+  border: none;
+}
+
+.close-button-container {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-img {
+  height: 20px;
+  width: 20px;
+}
+
+.menu-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.menu-align-container {
+  margin-top: 40px;
+}
+
+.abso1,
+.abso2 {
+  position: absolute;
+  height: 60%;
+  width: 90%;
+  z-index: -1;
+}
+
+.abso1 {
+  top: 70px;
+  left: 0;
+}
+
+.abso2 {
+  bottom: 0;
+  right: -70px;
 }
