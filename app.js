@@ -75,64 +75,64 @@ const projects = [
   }
 ];
 
-// const projectSection = document.getElementById('projectSection');
-// const projectSection2 = document.getElementById('projectSection2');
+const projectSection = document.getElementById('projectSection');
+const projectSection2 = document.getElementById('projectSection2');
 
-// 		function createProjectDetailsPopup(project) {
-//       const popup = document.createElement('div');
-//       popup.classList.add('project-popup');
-//       const closeButton = document.createElement('img');
-//       closeButton.classList.add('close-button');
-//       closeButton.src = 'img/close btn.png';
-//       const closeContainer = document.createElement('div');
-//       closeContainer.classList.add('close-container');
-//       const popupDetails = document.createElement('div');
-//       popupDetails.innerHTML = `
-//       <div class="popup-content">
-//         <h2 class="popup-header">${project.name}</h2>
-//         <img class="popup-snapshot" src="${project.windowImage}" alt="project-image">
-//         <p class="popup-des">${project.windowDescription}</p>
-//         <div class="popup-skills-container">
-//           <ul class="popup-skills">
-//             <li><img src="img/Devider.svg" alt="skills divider line"></li>
-//             <li>html</li>
-//             <li><img src="img/Devider.svg" alt="skills divider line"></li>
-//             <li>Ruby on Rals</li>
-//             <li><img src="img/Devider.svg" alt="skills divider line"></li>
-//             <li>css</li>
-//             <li><img src="img/Devider.svg" alt="skills divider line"></li>
-//           </ul>
-//         </div>
-//         <div class="popup-btn-container">
-//           <button class="button btn-pop">
-//             <a href="${project.liveVersionLink}">See Live</a>
-//             <img src="img/pop-up-live.svg">
-//           </button>
-//           <button class="button btn-pop">
-//             <a href="${project.sourceLink}">See Source</a>
-//             <img src="img/pop-up-source.svg">
-//           </button>
-//         </div>
-//       </div>
-//       `; 
-//       const contentWrapper = document.createElement('div');
-//       contentWrapper.classList.add('content-wrapper');
-//       const nameElement = document.createElement('h2');
-//       const imageElement = document.createElement('a');
-//       const descriptionElement = document.createElement('p');
-//       const technologiesElement = document.createElement('div');
+		function createProjectDetailsPopup(project) {
+      const popup = document.createElement('div');
+      popup.classList.add('project-popup');
+      const closeButton = document.createElement('img');
+      closeButton.classList.add('close-button');
+      closeButton.src = 'img/close btn.png';
+      const closeContainer = document.createElement('div');
+      closeContainer.classList.add('close-container');
+      const popupDetails = document.createElement('div');
+      popupDetails.innerHTML = `
+      <div class="popup-content">
+        <h2 class="popup-header">${project.name}</h2>
+        <img class="popup-snapshot" src="${project.windowImage}" alt="project-image">
+        <p class="popup-des">${project.windowDescription}</p>
+        <div class="popup-skills-container">
+          <ul class="popup-skills">
+            <li><img src="img/Devider.svg" alt="skills divider line"></li>
+            <li>html</li>
+            <li><img src="img/Devider.svg" alt="skills divider line"></li>
+            <li>Ruby on Rals</li>
+            <li><img src="img/Devider.svg" alt="skills divider line"></li>
+            <li>css</li>
+            <li><img src="img/Devider.svg" alt="skills divider line"></li>
+          </ul>
+        </div>
+        <div class="popup-btn-container">
+          <button class="button btn-pop">
+            <a href="${project.liveVersionLink}">See Live</a>
+            <img src="img/pop-up-live.svg">
+          </button>
+          <button class="button btn-pop">
+            <a href="${project.sourceLink}">See Source</a>
+            <img src="img/pop-up-source.svg">
+          </button>
+        </div>
+      </div>
+      `; 
+      const contentWrapper = document.createElement('div');
+      contentWrapper.classList.add('content-wrapper');
+      const nameElement = document.createElement('h2');
+      const imageElement = document.createElement('a');
+      const descriptionElement = document.createElement('p');
+      const technologiesElement = document.createElement('div');
 
-//       contentWrapper.append(popupDetails, nameElement, imageElement, descriptionElement, technologiesElement);
-//       popup.append(closeContainer, contentWrapper);
+      contentWrapper.append(popupDetails, nameElement, imageElement, descriptionElement, technologiesElement);
+      popup.append(closeContainer, contentWrapper);
 
-//       closeContainer.appendChild(closeButton);
+      closeContainer.appendChild(closeButton);
 
-//       closeButton.addEventListener('click', () => {
-//         popup.remove();
-//       });
+      closeButton.addEventListener('click', () => {
+        popup.remove();
+      });
 
-//       return popup;
-//     }
+      return popup;
+    }
 
     projectSection.addEventListener('click', (event) => {
       const target = event.target;
@@ -187,79 +187,79 @@ const projects = [
     generateProjectElements();
 
 
-    // const desktop = [
-    //   {
-    //     title: "project1",
-    //     gradientImg: "img/gradient/gradient3.svg",
-    //     gradientCont: "project-gradients1",
-    //   },
-    //   {
-    //     title: "project1",
-    //     gradientImg: "img/gradient/gradient4.svg",
-    //     gradientCont: "project-gradients2",
-    //     reverse: "backwards"
-    //   },
-    //   {
-    //     title: "project1",
-    //     gradientImg: "img/gradient/gradient5.svg",
-    //     gradientCont: "project-gradients3",
-    //   },
-    //   {
-    //     title: "project1",
-    //     gradientImg: "img/gradient/gradient6.svg",
-    //     gradientCont: "project-gradients4",
-    //     reverse: "backwards"
-    //   }
-    // ];
+    const desktop = [
+      {
+        title: "project1",
+        gradientImg: "img/gradient/gradient3.svg",
+        gradientCont: "project-gradients1",
+      },
+      {
+        title: "project1",
+        gradientImg: "img/gradient/gradient4.svg",
+        gradientCont: "project-gradients2",
+        reverse: "backwards"
+      },
+      {
+        title: "project1",
+        gradientImg: "img/gradient/gradient5.svg",
+        gradientCont: "project-gradients3",
+      },
+      {
+        title: "project1",
+        gradientImg: "img/gradient/gradient6.svg",
+        gradientCont: "project-gradients4",
+        reverse: "backwards"
+      }
+    ];
 
 
-    // function generateProjectElements2 () {
-    //   projectSection2.innerHTML = '';
+    function generateProjectElements2 () {
+      projectSection2.innerHTML = '';
 
-    //   for (let i = 0; i < desktop.length; i++) {
-    //     const project = desktop[i];
-    //     const projectElement2 = document.createElement('div');
-    //     projectElement2.classList.add('project2');
-    //     projectElement2.innerHTML = `
-    //     <div class="flex-layout2 ${project.reverse}">
-    //       <div class="img-placeholder-container2">
-    //         <img class="img-placeholder2" src="img/Img Placeholder-desktop.svg" alt="sreenshot of project">
-    //         <div class="${project.gradientCont}">
-    //           <img src="${project.gradientImg}" alt="background gradient">
-    //         </div>
-    //       </div>
-    //       <div class="project-info2">
-    //         <h4>Multi-Post Stories</h4>
-    //         <p class="project-description2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-    //         <div class="work-skills-container2">
-    //           <ul class="work-skills2">
-    //             <li>CSS</li>
-    //             <li><img src="img/Rectangle 70.svg" alt="skills divider line"></li>
-    //             <li>HTML</li>
-    //             <li><img src="img/Rectangle 70.svg" alt="skills divider line"></li>
-    //             <li>bootstrap</li>
-    //             <li><img src="img/Rectangle 70.svg" alt="skills divider line"></li>
-    //             <li>Ruby</li>
-    //           </ul>
-    //         </div>
-    //         <button class='button' data-project-index="${i}">See Project</button>
-    //       </div>
-    //     </div>
-    //     `
+      for (let i = 0; i < desktop.length; i++) {
+        const project = desktop[i];
+        const projectElement2 = document.createElement('div');
+        projectElement2.classList.add('project2');
+        projectElement2.innerHTML = `
+        <div class="flex-layout2 ${project.reverse}">
+          <div class="img-placeholder-container2">
+            <img class="img-placeholder2" src="img/Img Placeholder-desktop.svg" alt="sreenshot of project">
+            <div class="${project.gradientCont}">
+              <img src="${project.gradientImg}" alt="background gradient">
+            </div>
+          </div>
+          <div class="project-info2">
+            <h4>Multi-Post Stories</h4>
+            <p class="project-description2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="work-skills-container2">
+              <ul class="work-skills2">
+                <li>CSS</li>
+                <li><img src="img/Rectangle 70.svg" alt="skills divider line"></li>
+                <li>HTML</li>
+                <li><img src="img/Rectangle 70.svg" alt="skills divider line"></li>
+                <li>bootstrap</li>
+                <li><img src="img/Rectangle 70.svg" alt="skills divider line"></li>
+                <li>Ruby</li>
+              </ul>
+            </div>
+            <button class='button' data-project-index="${i}">See Project</button>
+          </div>
+        </div>
+        `
 
-    //     projectSection2.appendChild(projectElement2);
-    //   }
-    // }
+        projectSection2.appendChild(projectElement2);
+      }
+    }
 
-    // generateProjectElements2();
+    generateProjectElements2();
 
 
-    // projectSection2.addEventListener('click', (event) => {
-    //   const target = event.target;
-    //   if (target.tagName === 'BUTTON') {
-    //     const projectIndex = target.dataset.projectIndex;
-    //     const project = projects[projectIndex];
-    //     const popup = createProjectDetailsPopup(project);
-    //     document.body.appendChild(popup);
-    //   }
-    // });
+    projectSection2.addEventListener('click', (event) => {
+      const target = event.target;
+      if (target.tagName === 'BUTTON') {
+        const projectIndex = target.dataset.projectIndex;
+        const project = projects[projectIndex];
+        const popup = createProjectDetailsPopup(project);
+        document.body.appendChild(popup);
+      }
+    });
