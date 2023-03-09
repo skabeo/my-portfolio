@@ -263,3 +263,21 @@ projectSection2.addEventListener('click', ({ target }) => {
     document.body.appendChild(popup);
   }
 });
+
+
+const form = document.querySelector('#myForm');
+const submitBtn = document.querySelector('#send-btn');
+const errorMessage = document.querySelector('#errorMessage');
+
+// form.addEventListener('submit', (event) => {
+//   event.preventDefault();
+//   const email = document.querySelector('#email').value;
+//   const emailBack = document.querySelector('#email');
+//   if (email === email.toLowerCase()) {
+//     form.submit();
+//   } else {
+//     errorMessage.textContent = 'Please enter a lower case email!';
+//     errorMessage.classList.remove('errorOutput');
+//     emailBack.classList.add('back-col');
+//   }
+// });
