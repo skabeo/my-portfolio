@@ -13,13 +13,13 @@
 
 .left-ellipse2 {
   position: absolute;
-  top: -90px;
+  top: 140px;
   left: -25px;
 }
 
 .right-ellipse2 {
   position: absolute;
-  top: -70px;
+  bottom: -250px;
   right: -50px;
 }
 
