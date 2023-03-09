@@ -266,6 +266,9 @@ projectSection2.addEventListener('click', ({ target }) => {
 
 const form = document.querySelector('#myForm');
 const errorMessage = document.querySelector('#errorMessage');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const messageInput = document.querySelector('#message');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -279,3 +282,21 @@ form.addEventListener('submit', (event) => {
     emailBack.classList.add('back-col');
   }
 });
+
+[nameInput, emailInput, messageInput].forEach((input) => {
+  input.addEventListener('input', () => {
+    const formData = {
+      name: nameInput.value,
+      email: emailInput.value,
+      message: messageInput.value,
+    };
+    localStorage.setItem('formData', JSON.stringify(formData));
+  });
+});
+
+const savedFormData = JSON.parse(localStorage.getItem('formData'));
+if (savedFormData) {
+  nameInput.value = savedFormData.name;
+  emailInput.value = savedFormData.email;
+  messageInput.value = savedFormData.message;
+}
