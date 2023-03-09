@@ -264,9 +264,7 @@ projectSection2.addEventListener('click', ({ target }) => {
   }
 });
 
-
 const form = document.querySelector('#myForm');
-const submitBtn = document.querySelector('#send-btn');
 const errorMessage = document.querySelector('#errorMessage');
 
 form.addEventListener('submit', (event) => {
