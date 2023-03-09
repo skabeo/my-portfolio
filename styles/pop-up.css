@@ -75,7 +75,7 @@
 
 .popup-des {
   margin-top: 24px;
-  font-size: 16px; 
+  font-size: 16px;
   text-align: center;
 }
 
@@ -129,7 +129,6 @@
 
   .project2 {
     display: initial;
-   
   }
 
   .flex-layout2 {
@@ -159,4 +158,4 @@
     gap: 60px;
     margin-top: 40px;
   }
-} 
+}
