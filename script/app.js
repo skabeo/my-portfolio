@@ -283,20 +283,20 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// [nameInput, emailInput, messageInput].forEach((input) => {
-//   input.addEventListener("input", () => {
-//     const formData = {
-//       name: nameInput.value,
-//       email: emailInput.value,
-//       message: messageInput.value,
-//     };
-//     localStorage.setItem("formData", JSON.stringify(formData));
-//   });
-// });
+[nameInput, emailInput, messageInput].forEach((input) => {
+  input.addEventListener("input", () => {
+    const formData = {
+      name: nameInput.value,
+      email: emailInput.value,
+      message: messageInput.value,
+    };
+    localStorage.setItem("formData", JSON.stringify(formData));
+  });
+});
 
-// const savedFormData = JSON.parse(localStorage.getItem("formData"));
-// if (savedFormData) {
-//   nameInput.value = savedFormData.name;
-//   emailInput.value = savedFormData.email;
-//   messageInput.value = savedFormData.message;
-// }
+const savedFormData = JSON.parse(localStorage.getItem("formData"));
+if (savedFormData) {
+  nameInput.value = savedFormData.name;
+  emailInput.value = savedFormData.email;
+  messageInput.value = savedFormData.message;
+}
