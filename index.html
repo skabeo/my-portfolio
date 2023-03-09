@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/media-query.css">
   <link rel="stylesheet" href="styles/pop-up.css">
+  <link rel="stylesheet" href="styles/contactValidation.css">
 
 </head>
 <body>
@@ -198,7 +199,7 @@
       <div class="contact-description-container">
         <p class="contact-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
       </div>
-      <form action="https://formspree.io/f/xgebkzdk" method="POST">
+      <form id="myForm" action="https://formspree.io/f/xgebkzdk" method="POST">
         <label for="name" id="name-label">Enter Name</label>
         <input 
           id="name"
@@ -218,6 +219,7 @@
         >
         <textarea name="message" id="message" placeholder="Enter text here..." maxlength="500" required></textarea>
         <button type="submit" id="send-btn">Send</button>
+        <p id="errorMessage" class="errorStyle errorOutput"></p>
       </form>
     </section>
 
