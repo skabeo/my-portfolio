@@ -106,7 +106,7 @@ function createProjectDetailsPopup(project) {
         <li><img src="img/Devider.svg" alt="skills divider line"></li>
         <li>html</li>
         <li><img src="img/Devider.svg" alt="skills divider line"></li>
-        <li>Ruby on Rals</li>
+        <li>Ruby on Rails</li>
         <li><img src="img/Devider.svg" alt="skills divider line"></li>
         <li>css</li>
         <li><img src="img/Devider.svg" alt="skills divider line"></li>
