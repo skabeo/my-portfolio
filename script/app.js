@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu');
 const closeButton = document.querySelector('.close-btn');
 const links = document.querySelectorAll('.links a');
+const deskLinks = document.querySelectorAll('.desk-link a');
 
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
@@ -14,6 +15,14 @@ closeButton.addEventListener('click', () => {
 links.forEach((link) => {
   link.addEventListener('click', (event) => {
     menu.style.display = 'none';
+    const targetSection = document.querySelector(event.target.hash);
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+    event.preventDefault();
+  });
+});
+
+deskLinks.forEach((desk) => {
+  desk.addEventListener('click', (event) => {
     const targetSection = document.querySelector(event.target.hash);
     targetSection.scrollIntoView({ behavior: 'smooth' });
     event.preventDefault();
