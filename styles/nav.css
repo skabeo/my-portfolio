@@ -6,7 +6,7 @@ header {
   width: 100%;
   background-color: #191765;
   box-shadow: 0, 0 3px rgb(255 255 255 / 84.9%);
-  z-index: 100; 
+  z-index: 100;
   transition: top 0.3s;
 }
 
