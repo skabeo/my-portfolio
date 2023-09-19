@@ -54,3 +54,12 @@
   display: flex;
   gap: 20px;
 }
+
+.img-1 {
+  border-radius: 5px;
+}
+
+.img-placeholder2 {
+  width: 100%;
+  height: 100%;
+}

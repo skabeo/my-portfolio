@@ -8,13 +8,14 @@
 
 body {
   background-color: #191765;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   color: white;
   padding: 32px 24px;
   overflow-x: hidden;
 }
 
 .text-gradient {
+  /* stylelint-disable property-no-vendor-prefix */
   background:
     radial-gradient(
       64.18% 64.18% at 71.16% 35.69%,
