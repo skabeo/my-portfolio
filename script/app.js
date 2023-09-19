@@ -32,8 +32,8 @@ deskLinks.forEach((desk) => {
 const projects = [
   {
     name: 'MyTracker app',
-    description: "Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.",
-    windowDescription: "Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.",
+    description: 'Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.',
+    windowDescription: 'Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.',
     featuredImage: 'img/projects/myTracker2.png',
     windowImage: 'img/projects/my-tracker-desk.png',
     gradientImg: 'img/Ellipse 19.svg',
@@ -45,8 +45,8 @@ const projects = [
   },
   {
     name: 'Apple Inc',
-    description: "Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.",
-    windowDescription: "Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.",
+    description: 'Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.',
+    windowDescription: 'Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.',
     featuredImage: 'img/projects/appleInc.jpg',
     windowImage: 'img/projects/apple-inc-desk.png',
     gradientImg: 'img/Ellipse 20.svg',
@@ -71,8 +71,8 @@ const projects = [
   },
   {
     name: 'Afrochella',
-    description: "Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings.",
-    windowDescription: "Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings. At its core, Afrochella is a jubilant celebration of African heritage. Attendees are treated to a sensory feast that encompasses music, art, fashion, and food. A captivating lineup of African and international musicians fills the air with infectious rhythms, making it impossible to resist the urge to dance",
+    description: 'Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings.',
+    windowDescription: 'Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings. At its core, Afrochella is a jubilant celebration of African heritage. Attendees are treated to a sensory feast that encompasses music, art, fashion, and food. A captivating lineup of African and international musicians fills the air with infectious rhythms, making it impossible to resist the urge to dance',
     featuredImage: 'img/projects/afrochella.png',
     windowImage: 'img/projects/afrochella-desk.png',
     gradientImg: 'img/Ellipse 22.svg',
@@ -151,7 +151,6 @@ function createProjectDetailsPopup(project) {
 
 projectSection.addEventListener('click', ({ target }) => {
   if (target.tagName === 'BUTTON') {
-    console.log(target.dataset)
     const { projectIndex } = target.dataset;
     const project = projects[projectIndex];
     const popup = createProjectDetailsPopup(project);
@@ -209,8 +208,8 @@ const desktop = [
     gradientCont: 'project-gradients1',
     featuredImage: 'img/projects/my-tracker-desk.png',
     technologies: ['Ruby', 'Rails', 'Postgres', 'CSS'],
-    description: "Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.",
-    windowDescription: "Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.",
+    description: 'Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.',
+    windowDescription: 'Explore the captivating tale of transactions within a category through this enchanting mobile webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.',
   },
   {
     name: 'Apple Inc',
@@ -220,8 +219,8 @@ const desktop = [
     reverse: 'backwards',
     featuredImage: 'img/projects/apple-inc-desk.png',
     technologies: ['React', 'Redux', 'API', 'Sass'],
-    description: "Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.",
-    windowDescription: "Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.",
+    description: 'Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.',
+    windowDescription: 'Apple Inc is a mobile webapp that fetches data from a Financial Modeling Site to display the four main statement of Apple Inc. The Statements displayed includes the Income Statement, Balance Sheet, Cash flow statement and the Equity Statement for the year ended 2022.',
   },
   {
     name: "Space Travelers' Hub",
@@ -241,8 +240,8 @@ const desktop = [
     reverse: 'backwards',
     featuredImage: 'img/projects/afrochella-desk.png',
     technologies: ['CSS', 'html', 'bootstrap', 'JavaScript'],
-    description: "Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings.",
-    windowDescription: "Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings. At its core, Afrochella is a jubilant celebration of African heritage. Attendees are treated to a sensory feast that encompasses music, art, fashion, and food. A captivating lineup of African and international musicians fills the air with infectious rhythms, making it impossible to resist the urge to dance",
+    description: 'Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings.',
+    windowDescription: 'Afrochella is an annual extravaganza held in Accra, Ghana, celebrating the richness of African culture, art, and music. This vibrant festival has gained international acclaim for its diverse offerings. At its core, Afrochella is a jubilant celebration of African heritage. Attendees are treated to a sensory feast that encompasses music, art, fashion, and food. A captivating lineup of African and international musicians fills the air with infectious rhythms, making it impossible to resist the urge to dance',
   },
 ];
 
