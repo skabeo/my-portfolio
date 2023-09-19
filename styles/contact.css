@@ -55,7 +55,7 @@ textarea {
 
 #send-btn:hover {
   background: #7d73fc;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgb(125 115 252 / 48%);
 }
 
 #name-label,
