@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<h3><b>My Portfolio</b></h3>
+<h1><b>My Portfolio</b></h1>
 
 # 📗 Table of Contents
 
